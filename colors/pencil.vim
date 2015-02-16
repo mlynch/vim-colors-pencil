@@ -373,3 +373,9 @@ hi link GitGutterAdd                LineNr
 hi link GitGutterDelete             LineNr
 hi link GitGutterChange             LineNr
 hi link GitGutterChangeDelete       LineNr
+
+" Python content
+call s:h("pythonInclude", {"fg": s:purple })
+call s:h("pythonStatement", {"fg": s:blue})
+call s:h("pythonConditional", {"fg": s:purple })
+call s:h("pythonFunction", {"fg": s:pink})
